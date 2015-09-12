@@ -41,7 +41,7 @@ def merge_sort(iterable):
 	:param iterable:
 	:return: Sorted version of array
 	"""
-	if len(iterable) == 1:
+	if len(iterable) < 0:
 		return iterable
 	else:
 		left_part = iterable[:(len(iterable) / 2)]
