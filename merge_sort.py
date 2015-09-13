@@ -52,7 +52,10 @@ def merge_sort(iterable):
 
 
 if __name__ == '__main__':
-	print merge_sort([1, 8, 7, 76, 9, 5, 2, 4])
-	print merge_sort('cba')
-	print merge_sort([1])
-	print merge_sort([])
+	print('=' * 25)
+	print(merge_sort([1, 8, 7, 76, 9, 5, 2, 4]))
+	print(merge_sort([]))
+	print(merge_sort(()))
+	print(merge_sort(''))
+	print(''.join(merge_sort('zyxacb')))
+	#print(''.join(merge_sort(x for x in 'zyxacb')))  # generator's fail!
