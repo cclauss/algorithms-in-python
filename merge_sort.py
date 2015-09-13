@@ -1,5 +1,5 @@
 # Implementation of merge-sort algorithm is purely for educational
-# https://docs.python.org/2/library/functions.html#sorted will be faster and morte flexible
+# https://docs.python.org/2/library/functions.html#sorted will be faster and more flexible
 
 # This example is for intermediate python learners and will be really helpful to better understand the programming
 # and algorithm paradigm and highly recommended for python learners.
