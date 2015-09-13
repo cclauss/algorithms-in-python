@@ -42,13 +42,12 @@ def merge_sort(iterable):
 	:param iterable:
 	:return: Sorted version of list
 	"""
-	if len(iterable) == 1:
+	if not iterable:
 		return iterable
-	else:
-		left_part = iterable[:(len(iterable) / 2)]
-		right_part = iterable[len(iterable) / 2:]
-		result = merge(merge_sort(right_part), merge_sort(left_part))
-	return result
+
+	left_part = iterable[:(len(iterable) / 2)]
+	right_part = iterable[len(iterable) / 2:]
+	return merge(merge_sort(right_part), merge_sort(left_part))
 
 
 if __name__ == '__main__':
