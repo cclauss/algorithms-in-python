@@ -1,4 +1,4 @@
-# Implementation of merge-sort algorithm is purely for educational purposes.
+.# Implementation of merge-sort algorithm is purely for educational purposes.
 
 # This example is an intermediate for python learners and will be really helpful to better understand the programming
 # and algorithm paradigm and highly recommended for python learners.
@@ -42,7 +42,7 @@ def merge_sort(iterable):
 	:param iterable:
 	:return: Sorted version of list
 	"""
-	if not iterable:
+	if len(iterable) < 2:
 		return iterable
 
 	left_part = iterable[:(len(iterable) / 2)]
@@ -52,3 +52,6 @@ def merge_sort(iterable):
 
 if __name__ == '__main__':
 	print merge_sort([1, 8, 7, 76, 9, 5, 2, 4])
+        print merge_sort('cba')
+	print merge_sort([1])
+	print merge_sort([])
