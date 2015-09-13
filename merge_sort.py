@@ -1,6 +1,7 @@
-.# Implementation of merge-sort algorithm is purely for educational purposes.
+# Implementation of merge-sort algorithm is purely for educational
+# https://docs.python.org/2/library/functions.html#sorted will be faster and morte flexible
 
-# This example is an intermediate for python learners and will be really helpful to better understand the programming
+# This example is for intermediate python learners and will be really helpful to better understand the programming
 # and algorithm paradigm and highly recommended for python learners.
 # Input is an list of any length and any entries and the output is a sorted version of a list
 
@@ -52,6 +53,6 @@ def merge_sort(iterable):
 
 if __name__ == '__main__':
 	print merge_sort([1, 8, 7, 76, 9, 5, 2, 4])
-        print merge_sort('cba')
+	print merge_sort('cba')
 	print merge_sort([1])
 	print merge_sort([])
